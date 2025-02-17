@@ -16,8 +16,8 @@ fig_txt_template ={
     "category": ""
 }
 
-with open(r"/mnt/tianwen-tianqing-nas/tianwen/home/sjh/.data/fig_txt_s_20241001-20241231.jsonl", "rb") as f:
-    with open(r"/mnt/tianwen-tianqing-nas/tianwen/home/sjh/dataset/img_txt/arxiv.jsonl", "w", encoding="utf-8") as f_out:
+with open(r"E:\100-work\120-job\125-benchmark_pipeline\temp\fig_txt_s_20241001-20241231.jsonl", "rb") as f:
+    with open(r"E:\100-work\120-job\125-benchmark_pipeline\temp\arxiv.jsonl", "w", encoding="utf-8") as f_out:
         for line in f.readlines():
             line = json.loads(line)
             if line['flg'] != '1' :
