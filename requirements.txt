@@ -1,0 +1,17 @@
+astropy==7.0.0
+beautifulsoup4==4.12.3
+fitz==0.0.1.dev2
+jsonlines==4.0.0
+langdetect==1.0.9
+lmdeploy==0.6.5
+matplotlib==3.10.0
+opencv_python==4.10.0.84
+pandas==2.2.3
+Pillow==11.1.0
+rarfile==4.2
+reportlab==4.2.5
+Requests==2.32.3
+scipy==1.15.1
+torch==2.4.1
+tqdm==4.66.5
+transformers==4.47.1
