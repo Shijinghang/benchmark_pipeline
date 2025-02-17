@@ -30,7 +30,7 @@ Check if the description includes both the visual details and the conclusion der
   2. Contains several plausible but incorrect options, No need to provide reference.
 
 **Output Format**:  
-Provide the question, correct answer, source reference, and relevant image description in structured XML format:
+Provide the question, options, correct answer, correct option reference in structured XML format:
 
 
 <result>
